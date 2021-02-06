@@ -199,6 +199,52 @@ p {
     height: auto;
 }
 
+/* Add Item Suggestion chips */
+
+.add-item__suggestions {
+	display: flex;
+	align-items: center;
+	padding:0.8rem 2rem; 
+}
+
+.add-item__suggestions-control {
+	min-width: 30px;
+	min-height:30px;
+	border-radius:50%;
+	background: white;
+	box-shadow: 0 0 5px 1px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content:center;
+	cursor: pointer;
+}
+
+.add-item__suggestions-control-icon {
+	width:20px;
+	height:auto;
+}
+
+.add-item__suggestions-chip {
+	display: inline-flex;
+	gap: 1rem;
+	margin: 0 1.5rem;
+	overflow: hidden;
+}
+
+.add-item__suggestions-chip-item {
+	padding:0.5rem;
+	background:white;
+	text-transform: capitalize;
+	border-radius: 0.25rem;
+	border: 1px solid var(--border-color);
+	cursor: pointer;
+}
+
+.horizontal-line {
+	width:100%;
+	height:0;
+	border-bottom: 1px solid var(--border-color);
+}
+
 /* Utilities */
 
 .align-right {
